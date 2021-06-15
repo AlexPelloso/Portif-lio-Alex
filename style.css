@@ -123,6 +123,7 @@ button:hover {
 }
 
 .painel-noticia {
+    color: black;
     display: flex;
     flex-flow: row wrap-reverse;
     margin: 0.5rem;
