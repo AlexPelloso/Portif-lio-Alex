@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2? family = Arial Black = swap'); 
+body {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    background-color: blue;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+}
+
+.menu>div {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 50%;
+}
+
+#brand>img {
+    max-height: 2.5rem;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+#links {
+    text-align: right;
+}
+
+.link-menu {
+    font-family: 'Signika', sans-serif;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.painel {
+    background: linear-gradient(to bottom, blue, green);
+    width: 100%;
+    height: 100vh;
+}
+
+.titulo-painel {
+     font-family: 'akaya'; 
+    font-size: 6rem;
+    color: #fff;
+    line-height: 100vh;
+    align-items: center;
+    text-align: center;
+}
+
+/* Inicio css pra exibicao dos videos do youtube*/
+
+.titulo-divisao {
+    color: #2c3e50;
+    font-family: arial black;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 3rem;
+}
+
+.container-videos{
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: center;
+    background: #079992;
+}
+
+.container-videos > div{
+    margin: 0.5rem;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-family: arial;
+    line-height: 9rem;
+    width: 39rem;
+    text-align: center;
+    color: #3c6382;
+}
+
+.container-videos>div>p{
+    text-align: center;
+    color:black;
+    font-size: 1.5rem;
+    font-family: arial black;
+}
+
+/* |Fim do css para video do yotube */
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background: #079992;
+}
+
+/* Criando um CSS específico para as div dentro das div com class .flex-container */
+
+.flex-container > div {
+    background: #fff;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 35rem;
+}
+
+button {
+    background-color: #0092FA;
+    width: 5rem;
+    height: 2rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: solid blue ;
+}
+
+button:hover {
+    background-color: #45aaf2;
+    color: #a5b1c2;
+    cursor: pointer;
+    border: none;
+}
+
+.painel-noticia {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.painel-noticia>div>p {
+    font-family: arial;
+    font-size: 0.8rem;
+    text-align: justify;
+    width: 15rem;
+}
+ 
+.img-noticia {
+    width: 15rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background: blue;
+}
+
+.footer>div {
+    min-width: 20rem;
+    width: auto;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.footer>div>h4,
+.footer>div>ul {
+    font-family: Arial;
+    color: #fff;
+}
+
+.footer>div>a {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.img-footer {
+    width: auto;
+    height: 9rem;
+    margin: auto;
+}
+
+/**/
+.container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    height: 460px;
+    margin-left: 23%;
+  
+  }
+  
+ .container{
+    background-color: red;
+    border-radius: 10px;
+    border-color: black;
+  }
+  
+  input{
+    width: 97%;
+    height: 30px;
+    margin-bottom: 13px;
+    border-radius: 5px;
+    border: 3px;
+  }
+  
+  label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 20px;
+    color: black;
+  }
+  
