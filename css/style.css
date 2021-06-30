@@ -38,7 +38,3 @@ body {
 /* Dispositivos large (desktops com menos de 1200px) */
 
 @media (max-width: 1199.98px) {}
-
-a {
-    font-size: 3rem;
-}
