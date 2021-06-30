@@ -3,17 +3,16 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    font-family: 'Arial', Black !important;
-}
-
-.bg-transparent{
-    background: linear-gradient(to bottom, #0116FF, #7975FF);
+    font-family: 'Satisfy', cursive !important;
+    background: linear-gradient(to bottom, #574b90, #778beb);
     height: 100vh;
 }
+
 .img-social {
     width: 5rem;
     height: auto;
 }
+
 
 /* Dispositivos extra small (telefones em modo retrato, com menos de 576px) */
 
