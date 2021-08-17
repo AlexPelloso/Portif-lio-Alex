@@ -35,7 +35,7 @@ $(document).ready(function(){ //Executou a leitura do nosso documento e o prepar
                   </p>`)
                   $('#modal-info').modal('show')
               break
-    
+            // soltar site
               //Se for para abrir a página Parcerias...
               case 'Parcerias': 
                   $('.modal-title').append('Minhas Parcerias')
